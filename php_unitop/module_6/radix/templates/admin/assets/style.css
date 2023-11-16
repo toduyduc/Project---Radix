@@ -1,0 +1,23 @@
+
+.gallery-images .gallery-item{
+    margin-bottom: 10px;
+}
+.slide-item{
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ddd ;
+}
+.skill-wrapper .skill-item{
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ddd ;
+}
+.fact-wrapper .fact-item{
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ddd ;
+}
+.team-wrapper .team-item{
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ddd ;
+}
+.nav-sidebar .nav-item>.nav-link .right {
+    right: 1rem !important;
+}

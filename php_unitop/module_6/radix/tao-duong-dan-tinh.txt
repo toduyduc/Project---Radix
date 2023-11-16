@@ -1,0 +1,16 @@
+ * các bước tạo đường dẫn tĩnh
+ - bước 1: lấy tên(trường tên)
+ - bước 2: thay thế
+    + chuyển tất cả các kí tự thành chữ thường
+    + chuyển các chữ tiếng việt có dấu => không dấu : a, á,à,â,....=> a
+
+ - bước : tự động điền vào input slug
+
+ - ngôn ngữ lập trình sử dụng
+ 1. php:
+    - tạo slug tự động dựa vào tên (trường slog không nhập)
+    - update slug vào csdl
+
+ 2. Javascrip:
+    - tạo slug tự động dựa vào tên ( bắt sự kiện ở onkeyup ở trường tên)
+    => gõ ký tự ở trường tên => trường slog sẽ tự động so slug luôn
